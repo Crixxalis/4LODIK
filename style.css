@@ -35,3 +35,22 @@
     font-family: "Dancing Script", cursive;
     display: none;
 }
+.txt {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media (max-width: 900px){
+    .bal {
+        height: 80px;
+        width: 80px;
+    }
+    .txt {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .img {
+        height: 120px;
+        width: 90px;
+    }
+}
